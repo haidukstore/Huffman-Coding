@@ -11,17 +11,26 @@ import XCTest
 
 class HuffmamCodingTests: XCTestCase {
 
+    var huffman : HuffmanCoding!
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        huffman = HuffmanCoding()
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        huffman = nil
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+       let bundle = Bundle(for: type(of: self))
+        
+        guard let path = bundle.path(forResource: "1", ofType: "txt") else { XCTFail("Path is Empty"); return }
+        if let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
+            let enc = try? huffman.Encrypt(data: data)
+            print(enc?.encryptedData)
+            XCTAssertFalse(enc?.encryptedData.count == 0)
+        }
     }
 
     func testPerformanceExample() {

@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72F673A224AFCD100B6B0C2 /* HuffmanTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F6739224AFCD100B6B0C2 /* HuffmanTable.swift */; };
 		D793DE27224A960700FBE9ED /* HuffmamCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793DE1D224A960600FBE9ED /* HuffmamCoding.framework */; };
 		D793DE2C224A960700FBE9ED /* HuffmamCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE2B224A960700FBE9ED /* HuffmamCodingTests.swift */; };
 		D793DE2E224A960700FBE9ED /* HuffmamCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D793DE20224A960600FBE9ED /* HuffmamCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D793DE38224A96A000FBE9ED /* HuffmanCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE37224A96A000FBE9ED /* HuffmanCoding.swift */; };
+		D793DE3A224A9C7900FBE9ED /* PriorityArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE39224A9C7900FBE9ED /* PriorityArray.swift */; };
+		D793DE3C224AB92000FBE9ED /* BinaryTreeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE3B224AB92000FBE9ED /* BinaryTreeHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72F6739224AFCD100B6B0C2 /* HuffmanTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanTable.swift; sourceTree = "<group>"; };
 		D793DE1D224A960600FBE9ED /* HuffmamCoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuffmamCoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D793DE20224A960600FBE9ED /* HuffmamCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuffmamCoding.h; sourceTree = "<group>"; };
 		D793DE21224A960600FBE9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D793DE26224A960700FBE9ED /* HuffmamCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuffmamCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D793DE2B224A960700FBE9ED /* HuffmamCodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmamCodingTests.swift; sourceTree = "<group>"; };
 		D793DE2D224A960700FBE9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D793DE37224A96A000FBE9ED /* HuffmanCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanCoding.swift; sourceTree = "<group>"; };
+		D793DE39224A9C7900FBE9ED /* PriorityArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityArray.swift; sourceTree = "<group>"; };
+		D793DE3B224AB92000FBE9ED /* BinaryTreeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +79,12 @@
 		D793DE1F224A960600FBE9ED /* HuffmamCoding */ = {
 			isa = PBXGroup;
 			children = (
-				D793DE20224A960600FBE9ED /* HuffmamCoding.h */,
+				D793DE37224A96A000FBE9ED /* HuffmanCoding.swift */,
+				D793DE39224A9C7900FBE9ED /* PriorityArray.swift */,
+				D793DE3B224AB92000FBE9ED /* BinaryTreeHandler.swift */,
+				D72F6739224AFCD100B6B0C2 /* HuffmanTable.swift */,
 				D793DE21224A960600FBE9ED /* Info.plist */,
+				D793DE20224A960600FBE9ED /* HuffmamCoding.h */,
 			);
 			path = HuffmamCoding;
 			sourceTree = "<group>";
@@ -148,6 +160,7 @@
 				TargetAttributes = {
 					D793DE1C224A960600FBE9ED = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					D793DE25224A960700FBE9ED = {
 						CreatedOnToolsVersion = 10.2;
@@ -194,6 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D793DE38224A96A000FBE9ED /* HuffmanCoding.swift in Sources */,
+				D793DE3A224A9C7900FBE9ED /* PriorityArray.swift in Sources */,
+				D72F673A224AFCD100B6B0C2 /* HuffmanTable.swift in Sources */,
+				D793DE3C224AB92000FBE9ED /* BinaryTreeHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +337,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -341,6 +359,7 @@
 		D793DE32224A960700FBE9ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = roman.HuffmamCoding;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +386,7 @@
 		D793DE33224A960700FBE9ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +412,7 @@
 		D793DE35224A960700FBE9ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23PQRY6CLR;
 				INFOPLIST_FILE = HuffmamCodingTests/Info.plist;
@@ -409,6 +431,7 @@
 		D793DE36224A960700FBE9ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23PQRY6CLR;
 				INFOPLIST_FILE = HuffmamCodingTests/Info.plist;

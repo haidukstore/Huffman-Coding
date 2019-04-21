@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D72F673A224AFCD100B6B0C2 /* HuffmanTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F6739224AFCD100B6B0C2 /* HuffmanTable.swift */; };
 		D793DE27224A960700FBE9ED /* HuffmamCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793DE1D224A960600FBE9ED /* HuffmamCoding.framework */; };
-		D793DE2C224A960700FBE9ED /* HuffmamCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE2B224A960700FBE9ED /* HuffmamCodingTests.swift */; };
 		D793DE2E224A960700FBE9ED /* HuffmamCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D793DE20224A960600FBE9ED /* HuffmamCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D793DE38224A96A000FBE9ED /* HuffmanCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE37224A96A000FBE9ED /* HuffmanCoding.swift */; };
 		D793DE3A224A9C7900FBE9ED /* PriorityArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793DE39224A9C7900FBE9ED /* PriorityArray.swift */; };
@@ -32,8 +31,6 @@
 		D793DE20224A960600FBE9ED /* HuffmamCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuffmamCoding.h; sourceTree = "<group>"; };
 		D793DE21224A960600FBE9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D793DE26224A960700FBE9ED /* HuffmamCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuffmamCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D793DE2B224A960700FBE9ED /* HuffmamCodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmamCodingTests.swift; sourceTree = "<group>"; };
-		D793DE2D224A960700FBE9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D793DE37224A96A000FBE9ED /* HuffmanCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanCoding.swift; sourceTree = "<group>"; };
 		D793DE39224A9C7900FBE9ED /* PriorityArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityArray.swift; sourceTree = "<group>"; };
 		D793DE3B224AB92000FBE9ED /* BinaryTreeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeHandler.swift; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				D793DE1F224A960600FBE9ED /* HuffmamCoding */,
-				D793DE2A224A960700FBE9ED /* HuffmamCodingTests */,
 				D793DE1E224A960600FBE9ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,15 +83,6 @@
 				D793DE20224A960600FBE9ED /* HuffmamCoding.h */,
 			);
 			path = HuffmamCoding;
-			sourceTree = "<group>";
-		};
-		D793DE2A224A960700FBE9ED /* HuffmamCodingTests */ = {
-			isa = PBXGroup;
-			children = (
-				D793DE2B224A960700FBE9ED /* HuffmamCodingTests.swift */,
-				D793DE2D224A960700FBE9ED /* Info.plist */,
-			);
-			path = HuffmamCodingTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D793DE2C224A960700FBE9ED /* HuffmamCodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
